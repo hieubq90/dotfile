@@ -37,6 +37,7 @@ Videos
 .zcompdump-hieubq-HP-5.8.1
 .zcompdump-hieubq-HP-5.8.1.zwc
 .zshrc.pre-oh-my-zsh
+.ssh/
 cv_debug.log
 .config/mimeapps.list
 .config/user-dirs.dirs
