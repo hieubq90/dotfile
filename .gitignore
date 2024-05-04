@@ -57,5 +57,14 @@ cv_debug.log
 .config/sublime-merge
 .config/qt5ct/qt5ct.conf
 .config/sublime-text
-.config/thefuck/__pycache__/settings.cpython-312.pyc
-.config/xed/accels
+.config/thefuck/
+.config/xed/
+.config/libreoffice/
+envs/
+.config/transmission/
+.bogofilter/wordlist.db
+.nuxtrc
+.lesshst
+.yarnrc
+.zsh_history
+.config/configstore/

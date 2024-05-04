@@ -7,8 +7,9 @@ fi
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-export PATH=$PATH:$HOME/.local/bin
+# export GOMODCACHE=$HOME/envs/golang/pkg/mod
+export GOPATH=$HOME/workspaces/go
+export PATH=$PATH:$HOME/.local/bin:$HOME/envs/golang/goroot/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
