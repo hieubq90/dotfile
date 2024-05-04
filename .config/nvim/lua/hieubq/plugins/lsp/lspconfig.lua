@@ -131,6 +131,22 @@ return {
             },
           })
         end,
+        ["unocss"] = function()
+          -- configure unocss server (with special settings)
+          lspconfig["unocss"].setup({
+            capabilities = capabilities,
+            cmd = { "unocss-language-server", "--stdio" },
+            filetypes = { "html", "javascriptreact", "rescript", "typescriptreact", "vue", "svelte" },
+          })
+        end,
+        ["biome"] = function()
+          -- configure biome server (with special settings)
+          lspconfig["biome"].setup({
+            capabilities = capabilities,
+            cmd = { "biome", "lsp-proxy" },
+            filetypes = { "javascript", "javascriptreact", "json", "jsonc", "typescript", "typescript.tsx", "typescriptreact", "astro", "svelte", "vue" },
+          })
+        end,
       })
     end,
   }
